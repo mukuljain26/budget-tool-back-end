@@ -37,7 +37,7 @@ app.use((err, req, res, next) => {
   console.log(`forced error is ${err.stack}`);
 });
 
-const PORT = process.env.PORT || 3001;
+const PORT = 4000;
 
 app.listen(PORT, () => {
   console.log(`The server is started on ${PORT}`);
